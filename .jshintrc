@@ -1,0 +1,21 @@
+{
+	"curly": true,
+	"eqnull": true,
+	"eqeqeq": true,
+	"undef": true,
+	"expr" : true,
+	"globals": {
+		"jQuery": true,
+		"module": false,
+		"require": false,
+		"console": false,
+		// MOCHA
+		"describe": false,
+		"it": false,
+		"before": false,
+		"beforeEach": false,
+		"after": false,
+		"afterEach": false
+	}
+}
+

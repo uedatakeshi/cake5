@@ -1,0 +1,29 @@
+{
+  "name": "cake5",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://api.travis-ci.org/cakephp/app.png)](https://travis-ci.org/cakephp/app) [![License](https://poser.pugx.org/cakephp/app/license.svg)](https://packagist.org/packages/cakephp/app)",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "debowerify": "^1.2.0",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.3.0",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-uglify": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-phpcs": "^0.2.3",
+    "grunt-phpunit": "^0.3.6",
+    "grunt-simple-mocha": "^0.4.0",
+    "time-grunt": "^1.0.0"
+  },
+  "browser": {
+    "jquery": "./bower_components/jquery/dist/jquery.js"
+  }
+}
